@@ -1,7 +1,13 @@
+*{
+    ---tema:#181818;
+    ---destaque:#101010;
+    ---letras:#FFFFFF;
+    ---letras-size: 60px;
+}
 body{
-    background-color: #282828;
-    font-size: 50px;
-    color: #FFFFFF;
+    background-color: var(---tema);
+    font-size: var(---letras-size);
+    color: var(---letras);
 }
 .box{
     display: flex;
@@ -13,6 +19,9 @@ body{
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background-color: #101010;
+    background-color: var(---destaque);
     padding: 5%;
+}
+#consequenses{
+    text-align: center;
 }
